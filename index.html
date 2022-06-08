@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Fruta & Fruto</title>
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link href="./assets/css/reset.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- Cabeçalho css -->
+        <link rel="stylesheet" href="./assets/css/logo.css">
+        <link rel="stylesheet" href="./assets/css/cabeçalho.css">
+        <link rel="stylesheet" href="./assets/css/menu/menu__lista.css">
+        <link rel="stylesheet" href="./assets/css/menu/menu__item.css">
+        <link rel="stylesheet" href="./assets/css/menu/menu__link.css">
+        <!-- Banner css -->
+        <link rel="stylesheet" href="./assets/css/banner/banner.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner__image.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner__texto.css">  
+        <!-- Sobre css --> 
+        <link rel="stylesheet" href="./assets/css/Sobre/sobre.css">
+        <link rel="stylesheet" href="./assets/css/Sobre/sobre__texto.css">   
+        <!-- Receitas css -->
+        <link rel="stylesheet" href="./assets/css/receitas/receitas.css">   
+        <link rel="stylesheet" href="./assets/css/receitas/receita.css">   
+        <link rel="stylesheet" href="./assets/css/receitas/receita__imagem.css">   
+        <link rel="stylesheet" href="./assets/css/receitas/receita__titulo.css">   
+        <link rel="stylesheet" href="./assets/css/receitas/receita__conteudo.css">   
+        <link rel="stylesheet" href="./assets/css/receitas/receita__descricao.css">   
+        <link rel="stylesheet" href="./assets/css/receitas/receitas__botao.css">   
+        <!-- Que Somos css -->
+        <link rel="stylesheet" href="./assets/css/que somos/que-somos.css"> 
+        <link rel="stylesheet" href="./assets/css/que somos/que-somos__titulo.css"> 
+        <link rel="stylesheet" href="./assets/css/que somos/que-somos__descricao.css"> 
+        <!-- Pessoas css -->
+        <link rel="stylesheet" href="./assets/css/pessoas/pessoas.css"> 
+        <link rel="stylesheet" href="./assets/css/pessoas/pessoa.css"> 
+        <link rel="stylesheet" href="./assets/css/pessoas/pessoa-imagem.css"> 
+        <link rel="stylesheet" href="./assets/css/pessoas/pessoa__nome.css"> 
+        <link rel="stylesheet" href="./assets/css/pessoas/pessoa__funcao.css"> 
+        <!-- Rodapé css -->
+        <link rel="stylesheet" href="./assets/css/rodapé.css"> 
+        <!-- pop-up -->
+        <link rel="stylesheet" href="/assets/css/pop-up/popUp.css">
+        <link rel="stylesheet" href="/assets/css/pop-up/receita/receita.css">
+        <link rel="stylesheet" href="/assets/css/pop-up/formulário/formulario.css">
+
+    </head>
+
+    <body>
+
+        <header class="cabeçalho">
+            <img class="logo"src="./assets/img/logo.jpg" alt="Logo da Empresa Fruta & Fruto">
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link" href="#">Início</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Receitas</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Que somos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Comunidade</a></li>
+                </ul>
+            </nav>
+        </header> 
+
+        <section class="banner">
+            <div class="banner__imagem" >
+                <h2 class="banner__texto">Reaproveite melhor os alimentos!</h2>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="sobre">Receitas para economizar e ganhar saúde</h2>
+            <p class="sobre__texto">Nossa receitas ajudam você a aproveita os alimentos, economizar, ganhar tempo e praticidade.</p>
+        </section>
+
+        <section class="receitas">
+            <div class="receita">
+                <img alt="Tigela de abacate" class="receita__imagem" src="./assets/img/receitas/tigela-de-abacate.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Tigela de abacate</h4>
+                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button class="receita__botao modalReceita" data-receita="Tigela de abacate">Ver receita</button>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Salada de kiwi" class="receita__imagem" src="./assets/img/receitas/salada-de-kiwi.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Salada de kiwi</h4>
+                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button class="receita__botao" data-receita="Salada de kiwi">Ver receita</button>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Mix de vegetais" class="receita__imagem" src="./assets/img/receitas/mix-de-vegetais.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Mix de vegetais</h4>
+                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button class="receita__botao" data-receita="Mix de vegetais">Ver receita</button>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Pimentões à Juliana" class="receita__imagem" src="./assets/img/receitas/pimentoes-a-juliana.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Pimentões à Juliana</h4>
+                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button class="receita__botao" data-receita="Pimentões à Juliana">Ver receita</button>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Prato oriental" class="receita__imagem" src="./assets/img/receitas/prato-oriental.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Prato oriental</h4>
+                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button class="receita__botao" data-receita="Prato oriental">Ver receita</button>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Beterrabas assadas" class="receita__imagem" src="./assets/img/receitas/beterrabas-assadas.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Beterrabas assadas</h4>
+                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button class="receita__botao" data-receita="Beterrabas assadas">Ver receita</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="quem-somos">
+            <h3 class="quem-somos__titulo">Quem somos</h3>
+            <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
+            <div class="pessoas">
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa-imagem__roberta"></div>
+                    <span class="pessoa__nome">Roberta</span>
+                    <span class="pessoa__funcao">Conteúdo</span>
+                </div>
+                <div class="pessoa">
+                <div class="pessoa__imagem pessoa-imagem__marcela"></div>
+                    <span class="pessoa__nome">Marcela</span>
+                    <span class="pessoa__funcao">Chef de cozinha</span>
+                </div>
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa-imagem__andreia"></div>
+                    <span class="pessoa__nome">Andréia</span>
+                    <span class="pessoa__funcao">Pequena Produtora</span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="rodapé">
+            <h3 class="contato">
+                Contato
+            </h3>
+            <div class="bolinha-vermelha"></div>
+            <div class="bolinha-vermelha"></div>
+        </footer>
+
+        <section class="descrição_receita pop-up">
+            <div class="conteudo__pop-up">
+                <button class="fecha__pop--up">X</button>
+                <h3 class="titulo__pop-up">Modal Receita</h3>
+                <p class="descricao__Receita">Texto Receita</p>
+            </div>
+        </section>
+
+        <section class="pop-up">
+            <div class="conteudo__pop-up">
+                <button class="fecha__pop--up">X</button>
+                <h3 class="titulo__pop-up">Formulário de contato</h3>
+                <form class="form" action="#">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address" placeholder="1232 Main St">
+                    <label for="address2">Address 2</label>
+                    <input type="text" name="address" id="address2" placeholder="Apartment, studio, or floor">
+
+                    
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city" placeholder="1232 Main St">
+                    <label for="state">State</label>
+                    <input type="text" name="state" id="state" placeholder="Apartment, studio, or floor">
+                    <label for="zip">zip</label>
+                    <input type="text" name="zip" id="zip" placeholder="Apartment, studio, or floor">
+
+                    <label for="check">Check me out</label>
+                    <input type="checkbox" name="check" id="check" placeholder="Apartment, studio, or floor">
+                    
+                    <input type="button" value="Sign in">
+                </form>
+            </div>
+        </section>
+
+        <script src="/assets/js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+.pessoa__nome {
+    text-align: center; 
+    font-family: Pacifico, cursive;
+    color: rgba(141, 6, 6, 1);
+    font-size: 32px;
+    margin: 18px;
+}
