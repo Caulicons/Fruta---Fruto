@@ -1,8 +1,12 @@
-# arquitetura-css
-curso de arquitetura da Alura. 
+# Firmando conhecimento de CSS
 
-Nesse curso aprendi a criar sites mais agradáveis. 
+![project preview](./preview.gif)
 
-Caso queira da uma olhada rápida de como ficou, clique [aqui](https://fruta-fruto-kohl.vercel.app/).
+Firmando o conhecimento em css. 👀
+
+Meu projeto do curso de "Arquitetura CSS: descomplicando os problemas" da alura. O orientando desse projeto foi o Matheus Castiglioni.
+
+Caso queiram da uma olhada no site, só clicar [aqui](https://fruta-fruto-kohl.vercel.app/).
 
 O orientando desse projeto foi o Matheus Castiglioni, [aqui seu perfil do github](https://github.com/mahenrique94). 
+
